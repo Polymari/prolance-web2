@@ -477,3 +477,151 @@ nav a:hover {
   height: 1rem;
   width: 1rem;
 }
+
+@media screen and (max-width: 1232px) {
+  .why .img-container img {
+    width: 30rem;
+    object-fit: cover;
+  }
+
+  .why .img-container h2,
+  .why .img-container span {
+    font-size: 42px;
+    left: 65px;
+  }
+
+  .why span,
+  .why p {
+    font-size: 18px;
+    padding-right: 1rem;
+  }
+
+  .why p {
+    padding-left: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    background-image: url(/assets/img/background\ home.png);
+  }
+
+  .why .img-container img {
+    width: 30rem;
+    object-fit: cover;
+  }
+
+  .why .img-container h2,
+  .why .img-container span {
+    font-size: 42px;
+    left: 65px;
+  }
+
+  .why span,
+  .why p {
+    font-size: 17px;
+    padding-right: 1rem;
+  }
+
+  .why p {
+    padding-left: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .why .img-container img {
+    width: 25rem;
+    object-fit: cover;
+  }
+
+  .why .img-container h2,
+  .why .img-container span {
+    font-size: 36px;
+    left: 65px;
+  }
+
+  .why span,
+  .why p {
+    font-size: 17px;
+  }
+
+  .why p {
+    padding-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .carousel-container {
+    width: 670px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .why .img-container img {
+    width: 20rem;
+    object-fit: cover;
+  }
+
+  .why .img-container h2,
+  .why .img-container span {
+    font-size: 36px;
+    left: 65px;
+  }
+
+  .why span,
+  .why p {
+    font-size: 16px;
+  }
+
+  .why p {
+    padding-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .cta {
+    margin: 0 5rem 0 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .why .img-container img {
+    width: 17rem;
+    object-fit: cover;
+  }
+
+  .why .img-container h2,
+  .why .img-container span {
+    font-size: 28px;
+    left: 60px;
+  }
+
+  .why span,
+  .why p {
+    font-size: 16px;
+  }
+
+  .why p {
+    padding-left: 3.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .carousel-container {
+    width: 480px;
+  }
+
+  .cta {
+    margin: 0 4rem 0 4rem;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+  }
+
+  .sub-footer {
+    flex-direction: column;
+    padding-left: 4rem;
+  }
+}
